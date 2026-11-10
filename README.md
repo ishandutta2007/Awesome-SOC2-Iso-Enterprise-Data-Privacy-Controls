@@ -30,7 +30,8 @@
   - [🔐 Privacy Engineering, DSAR & Consent Management](#-privacy-engineering-dsar--consent-management)
 - [⚖️ Feature Comparison Matrix](#️-feature-comparison-matrix)
 - [🤝 Contributing](#-contributing)
-- [📈 Star History](#star-history)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -195,9 +196,21 @@ Contributions are warmly encouraged! If you know of an enterprise-grade complian
 
 ---
 
+## 💖 Support
+
+Thank you for exploring and supporting **Awesome SOC 2 / ISO Enterprise Data Privacy Controls**! 🌟
+
+If you find this list valuable for your team, organization, or open-source research, here are a few ways you can support the project:
+- ⭐ **Star this repository** to help others discover it
+- 🍴 **Fork and contribute** new tools, benchmarks, and updates
+- 📢 **Share with your colleagues, CISOs, and developer communities**
+- ☕ **Buy a coffee or sponsor the project:** Support ongoing maintenance and curated open-source indices via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
 ##  Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&type=Date)](https://star-history.com/#ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&Date)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&type=date&legend=top-left)
 
 ---
 
