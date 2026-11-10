@@ -61,7 +61,7 @@ Below is the comparative breakdown of leading commercial compliance and data pri
 
 ## 💻 Open-Source Software
 
-The open-source landscape provides transparent, self-hosted, and inspectable alternatives to commercial compliance tools. Below are the top open-source projects, **ranked by GitHub Stars (descending)**.
+The open-source landscape provides transparent, self-hosted, and inspectable alternatives to commercial compliance tools. Below are the top open-source projects, **ranked by GitHub_Stars (descending)**.
 
 ### 🛡️ Compliance Automation & Cloud Security Scanning
 
