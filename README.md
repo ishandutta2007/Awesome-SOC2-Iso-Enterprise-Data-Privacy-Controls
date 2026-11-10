@@ -1,188 +1,210 @@
-# Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls
+<div align="center">
 
-# Awesome SOC2 / ISO Enterprise Data Privacy Controls
+<img src="./assets/banner.svg" alt="Awesome SOC 2 and ISO Enterprise Data Privacy Controls Banner" width="100%" />
 
-> A curated list of top SOC 2 / ISO Enterprise Data Privacy Controls platforms — both SaaS/Hosted commercial solutions and open-source alternatives for compliance automation, privacy request fulfillment, and data governance.
-> 🌟 Star this repo if you find it useful! 🌟
+# 🛡️ Awesome SOC 2 / ISO Enterprise Data Privacy Controls 🔒
 
----
+<p align="center">
+  <strong>A production-ready curated index of leading SOC 2 Type II, ISO/IEC 27001:2022, and enterprise data privacy platforms — spanning enterprise SaaS automation and cutting-edge open-source software for automated compliance evidence collection, DSAR fulfillment, continuous monitoring, and GRC engineering.</strong>
+</p>
 
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Vanta](#vanta)
-  - [Drata](#drata)
-  - [Secureframe](#secureframe)
-  - [OneTrust](#onetrust)
-  - [TrustArc](#trustarc)
-  - [DataGrail](#datagrail)
-  - [BigID](#bigid)
-  - [Securiti.ai](#securitiai)
-- [Open-Source Software](#-open-source-software)
-  - [Openlane](#openlane)
-  - [Blackfyre](#blackfyre)
-  - [CISO Assistant](#ciso-assistant)
-  - [Fides (Ethyca)](#fides-ethyca)
-  - [DSAR (inthhq)](#dsar-inthhq)
-  - [privacy-dsar-mcp-server](#privacy-dsar-mcp-server)
-  - [ConsentOS](#consentos)
-  - [c15t](#c15t)
-  - [tarteaucitron.js](#tarteaucitronjs)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+<!-- Badges Header -->
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls?style=flat-square" alt="Issues"/></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
+  <a href="https://github.com/ishandutta0007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+</div>
 
-Commercial, cloud-hosted SOC 2 / ISO Enterprise Data Privacy Controls platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Vanta
-**Type:** Compliance automation for SOC 2, ISO 27001, and more  
-Vanta is the most widely recognized compliance automation platform, helping organizations achieve SOC 2, ISO 27001, HIPAA, and GDPR compliance through automated evidence collection, continuous monitoring, and vendor management. It is the primary commercial reference point for open-source alternatives like Openlane and Comp AI [citation:6][citation:12].
-
-### Drata
-**Type:** Compliance automation with continuous control monitoring  
-Drata provides similar compliance automation capabilities to Vanta, with automated evidence collection, risk management, and policy templates. It is frequently cited alongside Vanta as the commercial benchmark that open-source projects aim to replace.
-
-### Secureframe
-**Type:** Compliance and security program automation  
-Secureframe offers compliance automation with a focus on simplifying the audit process. It provides automated evidence collection, policy management, and integration with cloud infrastructure.
-
-### OneTrust
-**Type:** Privacy management and consent platform  
-OneTrust is the dominant commercial privacy management platform, covering consent management, data mapping, privacy impact assessments, and vendor risk. It is the primary commercial reference for open-source consent management tools like ConsentOS and c15t [citation:10][citation:15].
-
-### TrustArc
-**Type:** Privacy compliance and certification  
-TrustArc provides privacy compliance solutions including assessments, certifications, and ongoing monitoring. It is a long-standing commercial option for organizations needing formal privacy certifications.
-
-### DataGrail
-**Type:** Data privacy management with DSAR automation  
-DataGrail specializes in data privacy management, with a focus on automating Data Subject Access Requests (DSARs), data mapping, and consent management. It is a direct commercial reference for open-source DSAR tools like Fides and the inthhq DSAR engine [citation:1][citation:5].
-
-### BigID
-**Type:** Data discovery and privacy intelligence  
-BigID provides data discovery and classification for privacy compliance, helping organizations find and understand personal data across their systems. It is a commercial reference for open-source data governance tools.
-
-### Securiti.ai
-**Type:** Data privacy and governance platform  
-Securiti.ai provides a unified platform for data privacy, security, and governance, with capabilities for data discovery, DSAR automation, and consent management.
+## 📑 Table of Contents
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Software](#-open-source-software)
+  - [🛡️ Compliance Automation & Cloud Security Scanning](#️-compliance-automation--cloud-security-scanning)
+  - [🔐 Privacy Engineering, DSAR & Consent Management](#-privacy-engineering-dsar--consent-management)
+- [⚖️ Feature Comparison Matrix](#️-feature-comparison-matrix)
+- [🤝 Contributing](#-contributing)
+- [📈 Star History](#star-history)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 📈 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven SOC 2 / ISO Enterprise Data Privacy Controls tools. The open-source ecosystem **splits** between **compliance automation platforms** (Openlane, Blackfyre, CISO Assistant) and **privacy engineering tools** (Fides, DSAR, ConsentOS).
-
-### Openlane
-**Stack:** Go / PostgreSQL / Redis / OpenFGA | **License:** Apache-2.0  
-Openlane is the **most direct open-source alternative to Vanta, Drata, and Secureframe**, explicitly positioning itself as compliance automation for SOC 2, GDPR, ISO 27001, NIST 800-53, and more [citation:6][citation:8]. The core is developed entirely in the open, with security features like SSO and 2FA enforcement shipping in every module rather than sitting behind an enterprise tier [citation:6]. The stack runs on Go, PostgreSQL, Redis, and OpenFGA, avoiding the "pile of SaaS dependencies" that it criticizes in competitors [citation:6]. It includes a UI (openlane-ui), job queue (riverboat), and observability tools (beacon).  
-**Best for:** Organizations wanting a genuinely open-source compliance automation platform with no enterprise feature gating, built on a modern Go stack.
-
-### Blackfyre
-**Stack:** Multi-cloud (AWS/Azure/GCP) / AI-assisted | **License:** Open Source  
-Blackfyre is an open-source **multi-cloud compliance and security platform** that scans cloud infrastructure against **678 controls across 9 frameworks**, including SOC 2, ISO 27001, GDPR, HIPAA, PCI-DSS, and NIST 800-53 [citation:2]. Features include:
-- 40+ SDK-based auditors plus Prowler and IaC scanning (Checkov/Semgrep/Bandit) 
-- **AI-assisted analysis** (gap analysis, MITRE ATT&CK mapping, remediation suggestions) with graceful degradation to heuristics when no API key is configured 
-- **Evidence vault** with SHA-256 content hashing and S3 Object Lock (WORM, COMPLIANCE mode) on AWS deployments 
-- Multi-tenancy with Postgres row-level security, JWT + MFA, Google SSO, SAML, SCIM provisioning, and auditor-scoped access [citation:2]
-
-Deploys via Docker Compose with localstack for local development, or in Codespaces with zero install [citation:2].  
-**Best for:** Cloud-native organizations wanting to scan AWS/Azure/GCP against SOC 2 and ISO 27001 controls with AI-assisted remediation and tamper-evident evidence.
-
-### CISO Assistant
-**Stack:** Python / Django / PostgreSQL / S3 | **License:** Open Source  
-CISO Assistant is an open-source **GRC (Governance, Risk, and Compliance)** platform supporting **30+ standards and frameworks** including SOC 2, ISO 27001, NIST CSF, GDPR, HIPAA, PCI DSS, NIS2, and DORA [citation:13]. It provides risk and audit management, with a Django backend and a frontend. Deployment requires PostgreSQL, optional S3 bucket for storage, and Huey for task running [citation:13].  
-**Best for:** Organizations wanting a comprehensive open-source GRC platform with broad framework coverage beyond just SOC 2 and ISO 27001, accepting a more traditional Django-based deployment.
-
-### Fides (Ethyca)
-**Stack:** Python | **License:** Apache-2.0  
-Fides is an open-source **privacy engineering platform** for managing the fulfillment of data privacy requests in your runtime environment, and the enforcement of privacy regulations in code [citation:1]. It supports GDPR, CCPA, and LGPD by default, plus ISO 19944. Key features include:
-- End-to-end Data Subject Request automation 
-- **Privacy-as-Code** for labeling system privacy characteristics 
-- Compliance-minded data mapping 
-- Auditing of stored PII throughout application systems [citation:1]
-
-Fides is the most mature open-source DSAR automation tool, with 453 GitHub stars as of mid-2026 [citation:7].  
-**Best for:** Engineering teams wanting to embed privacy request fulfillment and data mapping directly into their application runtime, with support for major privacy regulations.
-
-### DSAR (inthhq)
-**Stack:** TypeScript / Bun / Turbo | **License:** Apache-2.0  
-DSAR is a **developer-first Data Subject Access Request engine** with a clean separation of authentication lanes: machine access via API keys/bearer tokens, and trusted host identity projection via `resolveTrustedRequestIdentity` [citation:5]. This keeps end-user login in the host product while DSAR focuses on tenant scoping and route authorization. It is a monorepo with a kitchen-sink example showing runtime auth wiring, and includes Unkey integration documentation [citation:5].  
-**Best for:** Developers wanting a clean, API-driven DSAR engine to embed into their own product, with clear auth separation between machine access and end-user identity.
-
-### privacy-dsar-mcp-server
-**Stack:** Python | **License:** MIT  
-privacy-dsar-mcp-server is an **MCP server for GDPR privacy compliance and DSAR management**, positioned as an open-source alternative to Transcend MCP [citation:11]. It provides tools for:
-- Creating DSARs with automatic 30-day deadline tracking (GDPR Art. 12) 
-- Listing DSARs sorted by urgency (overdue/critical first) 
-- Checking GDPR compliance against 15 rules with A-F scoring 
-- Registering data processing activities (Article 30 GDPR) 
-- Privacy officer dashboard with open/overdue DSARs and action items [citation:11]
-
-Data is stored locally at `~/.privacy_dsar_store.json` with no external services required [citation:11].  
-**Best for:** Privacy officers and small teams wanting a lightweight, MCP-based DSAR tracker with GDPR compliance scoring, installable via pip and usable with Claude Desktop.
-
-### ConsentOS
-**Stack:** Python / FastAPI / Playwright / Docker | **License:** Elastic-2.0 (source-available)  
-ConsentOS is a **privacy-first cookie consent management platform** positioned as a self-hosted alternative to OneTrust, Cookiebot, and CookieYes [citation:10]. It supports **IAB TCF v2.3, GPP v1, Google Consent Mode v2, GPC, and Shopify Customer Privacy API**. Features include:
-- Auto-blocking of scripts, cookie writes, and storage API calls until consent is granted 
-- Playwright-driven cookie scanner with auto-categorization against the Open Cookie Database (2,200+ patterns) 
-- **Dark pattern detection** (pre-ticked boxes, missing reject buttons, button asymmetry) 
-- Compliance engine with rules for GDPR, CNIL, CCPA/CPRA, ePrivacy, and LGPD 
-- GeoIP-aware consent modes (opt-in for EU, opt-out for US-CA) [citation:10]
-
-**Important licensing note:** ConsentOS is source-available under the Elastic License 2.0, not OSI-approved open source, which limits commercial reuse and redistribution [citation:10].  
-**Best for:** Organizations wanting a feature-rich, self-hosted consent management platform with standards compliance and dark pattern detection, accepting the source-available licensing terms.
-
-### c15t
-**Stack:** TypeScript / Next.js | **License:** Open Source  
-c15t is an open-source **consent management platform** that transforms privacy consent into a fully observable system [citation:15]. It provides a TypeScript-first SDK with automatic jurisdiction detection, a customizable consent banner, and support for managing third-party scripts based on user consent. It integrates with Next.js via a provider and supports pre-built helpers for Google Tag Manager, PostHog, and Meta Pixel [citation:15].  
-**Best for:** Next.js and TypeScript developers wanting a modern, developer-friendly consent management SDK with automatic script blocking and jurisdiction detection.
-
-### tarteaucitron.js
-**Stack:** JavaScript | **License:** Open Source (MIT)  
-tarteaucitron.js is a free, open-source **JavaScript consent manager** for adding a cookie consent banner to websites and letting visitors control third-party services [citation:4]. It provides the consent interface and service controls for a CMP setup, helping implement GDPR/RGPD consent requirements. Features include service-level preferences, consent-based loading (services blocked until permission granted), content placeholders, and **Google Consent Mode v2, Bing Consent Mode, and Piano Analytics Consent Mode** integrations [citation:4]. It is maintained by an independent French developer, with a paid Pro service offering automatic service detection and an online configuration dashboard.  
-**Best for:** Web developers wanting a lightweight, self-hosted consent banner library with explicit service-level controls, without adopting a full CMP platform.
+The global **Governance, Risk, and Compliance (GRC) and Compliance Automation** market is estimated at **$40B to $65B**, with the cloud-native compliance automation segment alone surpassing **$2.8B** and expanding at a rapid **CAGR exceeding 25%**. The market remains **moderately to highly fragmented** rather than winner-take-all: while enterprise buyers rely on established consolidated GRC suites (like ServiceNow and OneTrust) for multi-jurisdiction risk management, the hyper-growth mid-market and startup segments are vigorously contested by specialized automation platforms (such as Vanta, Drata, and Secureframe) and emerging open-source Privacy-as-Code engines solving continuous audit evidence collection and regional DSAR workflows.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🏢 SaaS / Hosted Commercial Platforms
 
-| Software | License | Stack | SOC 2 / ISO | Privacy/DSAR | Consent Mgmt | Self-Hosted | Best For |
-|----------|---------|-------|-------------|--------------|--------------|-------------|----------|
-| **Vanta** | Proprietary | Cloud | ✅ | (Vendor) | ❌ | ❌ | Commercial compliance automation |
-| **OneTrust** | Proprietary | Cloud | (Vendor) | ✅ | ✅ | ❌ | Commercial privacy suite |
-| **Openlane** | Apache-2.0 | Go/Postgres | ✅ | (Vendor) | ❌ | ✅ | Open-source Vanta alternative |
-| **Blackfyre** | Open Source | Multi-cloud | ✅ (678 controls) | (GDPR controls) | ❌ | ✅ | Cloud compliance scanning |
-| **CISO Assistant** | Open Source | Python/Django | ✅ (30+ frameworks) | (GDPR) | ❌ | ✅ | Broad GRC platform |
-| **Fides** | Apache-2.0 | Python | ❌ | ✅ DSAR + mapping | ❌ | ✅ | Privacy-as-code DSAR |
-| **DSAR (inthhq)** | Apache-2.0 | TypeScript | ❌ | ✅ DSAR engine | ❌ | ✅ | Embeddable DSAR engine |
-| **privacy-dsar-mcp** | MIT | Python | ❌ | ✅ DSAR + GDPR score | ❌ | ✅ (Local) | MCP-based DSAR tracker |
-| **ConsentOS** | Elastic-2.0 | Python/FastAPI | ❌ | (GDPR rules) | ✅ TCF/GPP | ✅ | Self-hosted CMP + dark patterns |
-| **c15t** | Open Source | TypeScript | ❌ | ❌ | ✅ | ✅ (SDK) | Next.js consent SDK |
-| **tarteaucitron** | MIT | JavaScript | ❌ | ❌ | ✅ | ✅ (Library) | Lightweight consent banner |
+Below is the comparative breakdown of leading commercial compliance and data privacy platforms, sorted in descending order of company size (valuation / enterprise scale).
+
+| 🏢 Platform | 💰 Company Size (Valuation / Revenue) | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits | 🎯 Primary Focus & Strengths |
+|---|---|---|---|---|
+| **OneTrust** | **$4.5B - $5.0B Valuation** (~$500M+ ARR) | Starting ~$10,000/yr (single modules like web consent scale ~$800–$1,100/mo) | **No free tier or public self-serve trial** (Limited standalone free toolkits like CCPA opt-out builders; trial sandboxes require sales vetting) | Enterprise privacy management, consent management, DSAR fulfillment, vendor risk & AI governance |
+| **Vanta** | **$2.45B Valuation** (~$140M+ ARR) | Starting ~$10,000 - $14,000/yr (Core Essentials for early startups 1–20 seats) | **No free tier or public self-serve trial** (Interactive guided demo required; sales-negotiated POC sandbox periods granted case-by-case) | Automated evidence collection for SOC 2, ISO 27001, HIPAA, GDPR & continuous cloud monitoring |
+| **Drata** | **$2.0B Valuation** (~$100M+ ARR) | Starting ~$7,000 - $7,500/yr (Foundation plan for early startups under 50 seats) | **No free tier or public self-serve trial** (Demo call required; sales-approved proof-of-concept trial evaluation available upon qualification) | Continuous automated compliance monitoring, SOC 2/ISO 27001 readiness & risk management |
+| **Securiti.ai** | **$1.725B Valuation** (Acquired by Veeam, ~$75M+ ARR) | Starting ~$50,000/yr median custom contract tier (AWS Marketplace enterprise baseline) | **No free tier or public trial for enterprise Data Command Center** (Developer/AI firewall tools have free limited query rate tiers; enterprise requires demo) | Unified Data Command Center, Data Security Posture Management (DSPM), PrivacyOps & AI security |
+| **BigID** | **$1.0B - $1.25B Valuation** (~$100M+ ARR) | Starting ~$25,000 - $75,000+/yr (Base packages scale with data volume/petabytes scanned) | **No free tier or self-serve trial** (Offers a scoped complimentary risk assessment & targeted data-source POC scan post-demo) | Deep data discovery, PII classification, machine-learning data governance & privacy intelligence |
+| **TrustArc** | **~$300M Valuation** (~$50M+ ARR) | Starting ~$10,000/yr (Modular pricing scaling by domains and data subjects) | **No free tier for core compliance platform** (Provides limited 14-day evaluation trial for *Nymity Research* database; platform demo required) | Comprehensive privacy certifications, GDPR/CCPA risk assessments & consent governance |
+| **Secureframe** | **~$200M - $500M Valuation** ($79M total funding) | Starting ~$7,500/yr (Fundamentals entry-level tier for small teams) | **No free tier or public self-serve trial** (Requires personalized interactive demo session with compliance architects) | End-to-end audit readiness, automated evidence gathering, vendor management & employee security training |
+| **DataGrail** | **~$200M - $250M Valuation** (~$15M - $20M ARR) | Starting ~$36,000/yr (Essentials tier baseline on marketplace listings) | **No free tier or self-serve trial** (Interactive guided platform tours and sales-tailored product demonstrations only) | Live Data Map discovery, automated Data Subject Access Requests (DSARs) & consent tracking |
+
+---
+
+## 💻 Open-Source Software
+
+The open-source landscape provides transparent, self-hosted, and inspectable alternatives to commercial compliance tools. Below are the top open-source projects, **ranked by GitHub Stars (descending)**.
+
+### 🛡️ Compliance Automation & Cloud Security Scanning
+
+#### 1. Prowler <a href="https://github.com/prowler-cloud/prowler/stargazers"><img src="https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Tech Stack:** Python / AWS SDK / Azure SDK / GCP SDK | **License:** Apache-2.0
+- **Overview:** Industry-standard multi-cloud security assessment and compliance tool. Performs automated security posture scanning, continuous monitoring, and compliance readiness against **SOC 2, ISO 27001, CIS Benchmarks, NIST 800-53, HIPAA, PCI-DSS**, and AWS/Azure/GCP Well-Architected Frameworks.
+- **Best For:** DevOps and security engineers seeking automated, scriptable cloud compliance audits and tamper-proof reporting.
+
+#### 2. ScoutSuite <a href="https://github.com/nccgroup/ScoutSuite/stargazers"><img src="https://img.shields.io/github/stars/nccgroup/ScoutSuite?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
+- **Tech Stack:** Python / Multi-Cloud APIs | **License:** GPL-2.0
+- **Overview:** Open-source multi-cloud security auditing tool by NCC Group. Gathers configuration data via cloud provider APIs to highlight risk areas and posture vulnerabilities across AWS, Microsoft Azure, Google Cloud Platform, Alibaba Cloud, and Oracle Cloud Infrastructure.
+- **Best For:** Security teams conducting point-in-time compliance assessments and architectural reviews across heterogeneous multi-cloud estates.
+
+#### 3. CISO Assistant <a href="https://github.com/intuitem/ciso-assistant-community/stargazers"><img src="https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
+- **Tech Stack:** Python / Django / PostgreSQL / S3 | **License:** AGPL-3.0
+- **Overview:** A modern, one-stop-shop Governance, Risk, and Compliance (GRC) platform. Automates risk management, audits, third-party risk (TPRM), privacy assessments, and reporting across **200+ global frameworks** including SOC 2, ISO 27001:2022, NIST CSF 2.0, CIS Controls, GDPR, HIPAA, NIS2, and DORA.
+- **Best For:** Organizations and CISOs wanting an open-source, full-lifecycle GRC platform with pre-mapped control crosswalks.
+
+#### 4. ComplianceAsCode <a href="https://github.com/ComplianceAsCode/content/stargazers"><img src="https://img.shields.io/github/stars/ComplianceAsCode/content/stargazers"><img src="https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content)
+- **Tech Stack:** Python / SCAP / Ansible / Bash | **License:** BSD-3-Clause
+- **Overview:** The primary declarative framework for automated compliance and security hardening. Provides SCAP content, automated remediation scripts, and Ansible playbooks to enforce baseline controls for ISO 27001, PCI-DSS, HIPAA, and NIST across Linux distributions and containers.
+- **Best For:** Infrastructure engineers automating OS-level compliance enforcement and continuous configuration auditing.
+
+#### 5. Openlane <a href="https://github.com/theopenlane/core/stargazers"><img src="https://img.shields.io/github/stars/theopenlane/core?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [theopenlane/core](https://github.com/theopenlane/core)
+- **Tech Stack:** Go / PostgreSQL / Redis / OpenFGA | **License:** Apache-2.0
+- **Overview:** The most direct, modern open-source alternative to Vanta, Drata, and Secureframe. Purpose-built for SOC 2, GDPR, ISO 27001, and NIST 800-53 compliance workflows without proprietary paywalls. Features native RBAC/FGAC (OpenFGA), SSO/MFA out-of-the-box, task queues, and automated evidence management.
+- **Best For:** Tech-forward engineering teams requiring a cloud-native, self-hosted compliance platform on a clean Go stack.
+
+#### 6. GovReady-Q <a href="https://github.com/GovReady/govready-q/stargazers"><img src="https://img.shields.io/github/stars/GovReady/govready-q?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [GovReady/govready-q](https://github.com/GovReady/govready-q)
+- **Tech Stack:** Python / Django / PostgreSQL | **License:** GPL-3.0
+- **Overview:** Automated compliance assessment engine that guides agile development teams through security documentation, System Security Plans (SSP), and control assessments via interactive question-and-answer interview workflows.
+- **Best For:** Small organizations and public-sector vendors needing guided System Security Plans (SSPs) and structured compliance questionnaires.
+
+#### 7. Blackfyre <a href="https://github.com/jonescyber-ai/Blackfyre/stargazers"><img src="https://img.shields.io/github/stars/jonescyber-ai/Blackfyre?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [jonescyber-ai/Blackfyre](https://github.com/jonescyber-ai/Blackfyre)
+- **Tech Stack:** Multi-Cloud / Python / AI Heuristics | **License:** MIT
+- **Overview:** Multi-cloud compliance engine scanning AWS, Azure, and GCP against **678 controls across 9 frameworks** (SOC 2, ISO 27001, GDPR, HIPAA, NIST 800-53). Features AI-assisted gap analysis, MITRE ATT&CK mapping, and an evidence vault with SHA-256 tamper-evident verification.
+- **Best For:** Cloud teams seeking deep infrastructure audit scanning combined with AI-assisted control remediation.
+
+---
+
+### 🔐 Privacy Engineering, DSAR & Consent Management
+
+#### 8. c15t <a href="https://github.com/c15t/c15t/stargazers"><img src="https://img.shields.io/github/stars/c15t/c15t?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [c15t/c15t](https://github.com/c15t/c15t)
+- **Tech Stack:** TypeScript / Next.js / Tailwind CSS | **License:** Apache-2.0
+- **Overview:** An observable, developer-first consent management platform (CMP). Offers TypeScript SDKs, auto-blocking of unauthorized scripts, geolocation-based consent jurisdiction routing (GDPR vs. CCPA), and turnkey wrappers for PostHog, Google Tag Manager, and Meta Pixel.
+- **Best For:** Modern web applications and frontend teams needing an embedded, customizable privacy consent SDK.
+
+#### 9. Klaro <a href="https://github.com/kiprotect/klaro/stargazers"><img src="https://img.shields.io/github/stars/kiprotect/klaro?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [kiprotect/klaro](https://github.com/kiprotect/klaro)
+- **Tech Stack:** JavaScript / TypeScript | **License:** BSD-3-Clause
+- **Overview:** A clean, privacy-by-design consent manager and cookie banner. Compliant with GDPR, ePrivacy, and CCPA, it enforces strict opt-in logic, intercepts third-party trackers dynamically, and provides an accessible, responsive UI without tracking cookies itself.
+- **Best For:** Privacy-conscious organizations needing a lightweight, zero-dependency consent banner compliant with strict EU regulations.
+
+#### 10. tarteaucitron.js <a href="https://github.com/AmauriC/tarteaucitron.js/stargazers"><img src="https://img.shields.io/github/stars/AmauriC/tarteaucitron.js?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [AmauriC/tarteaucitron.js](https://github.com/AmauriC/tarteaucitron.js)
+- **Tech Stack:** Vanilla JavaScript | **License:** MIT
+- **Overview:** A veteran script and cookie consent manager designed for European GDPR/CNIL compliance. Supports Google Consent Mode v2, Bing Consent Mode, and manual or automated blocking for hundreds of external third-party services.
+- **Best For:** Content websites, media properties, and web developers wanting direct JavaScript control over third-party scripts.
+
+#### 11. Fides (Ethyca) <a href="https://github.com/ethyca/fides/stargazers"><img src="https://img.shields.io/github/stars/ethyca/fides?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [ethyca/fides](https://github.com/ethyca/fides)
+- **Tech Stack:** Python / FastAPI / SQLAlchemy / React | **License:** Apache-2.0
+- **Overview:** The benchmark open-source **Privacy-as-Code** platform. Automates end-to-end Data Subject Access Requests (DSARs), runtime PII discovery, privacy taxonomy tagging in code, and database-level erasure/retrieval execution for GDPR, CCPA, and LGPD.
+- **Best For:** Backend software engineers wanting programmatic privacy governance integrated into Git workflows and CI/CD pipelines.
+
+#### 12. ConsentOS <a href="https://github.com/ConsentOS/consentos/stargazers"><img src="https://img.shields.io/github/stars/ConsentOS/consentos/stargazers"><img src="https://img.shields.io/github/stars/ConsentOS/consentos?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [ConsentOS/consentos](https://github.com/ConsentOS/consentos)
+- **Tech Stack:** Python / FastAPI / Playwright / Docker | **License:** Elastic-2.0
+- **Overview:** Enterprise-grade self-hosted CMP alternative to OneTrust and Cookiebot. Features automated Playwright cookie scanners, IAB TCF v2.3 and GPP compliance, dark-pattern detection (reject button asymmetry), and automated script blocking.
+- **Best For:** Self-hosted enterprise deployments requiring IAB TCF compliance and deep cookie crawling capabilities.
+
+#### 13. DSAR Engine (inthhq) <a href="https://github.com/inthhq/dsar/stargazers"><img src="https://img.shields.io/github/stars/inthhq/dsar?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [inthhq/dsar](https://github.com/inthhq/dsar)
+- **Tech Stack:** TypeScript / Bun / Turborepo | **License:** Apache-2.0
+- **Overview:** A developer-focused Data Subject Access Request backend engine. Provides clean separation between machine API credentials and tenant identity projection (`resolveTrustedRequestIdentity`), supporting modular auth providers like Unkey.
+- **Best For:** SaaS product builders wanting to plug an embeddable DSAR fulfillment engine into their multi-tenant SaaS backend.
+
+#### 14. privacy-dsar-mcp-server <a href="https://github.com/AiAgentKarl/privacy-dsar-mcp-server/stargazers"><img src="https://img.shields.io/github/stars/AiAgentKarl/privacy-dsar-mcp-server?style=social&color=white" alt="Stars" /></a>
+- **Repository:** [AiAgentKarl/privacy-dsar-mcp-server](https://github.com/AiAgentKarl/privacy-dsar-mcp-server)
+- **Tech Stack:** Python / Model Context Protocol (MCP) | **License:** MIT
+- **Overview:** An MCP server for GDPR privacy compliance and DSAR deadline tracking. Enables AI assistants (like Claude Desktop) to log privacy requests, calculate 30-day Article 12 statutory deadlines, generate GDPR compliance scores, and maintain Article 30 Records of Processing Activities (RoPA).
+- **Best For:** DPOs and privacy officers looking to manage privacy workflows and DSAR records through AI desktop assistants.
+
+---
+
+## ⚖️ Feature Comparison Matrix
+
+| Project / Software | Category | Primary Focus | SOC 2 / ISO 27001 | DSAR Automation | Cookie / CMP | Self-Hosted / Deployment | License |
+|---|---|---|:---:|:---:|:---:|:---:|---|
+| **OneTrust** | Commercial SaaS | Complete Enterprise Trust Suite | 🔶 (Vendor) | ✅ | ✅ | ☁️ Managed SaaS | Proprietary |
+| **Vanta** | Commercial SaaS | Automated Continuous Auditing | ✅ | 🔶 (Vendor) | ❌ | ☁️ Managed SaaS | Proprietary |
+| **Drata** | Commercial SaaS | Continuous Compliance Monitoring | ✅ | 🔶 (Vendor) | ❌ | ☁️ Managed SaaS | Proprietary |
+| **Securiti.ai** | Commercial SaaS | Data Command Center & DSPM | 🔶 | ✅ | ✅ | ☁️ Managed SaaS | Proprietary |
+| **BigID** | Commercial SaaS | Data Intelligence & Discovery | 🔶 | ✅ | ❌ | ☁️ SaaS / Hybrid | Proprietary |
+| **TrustArc** | Commercial SaaS | Privacy Assessments & Certifications | 🔶 | ✅ | ✅ | ☁️ Managed SaaS | Proprietary |
+| **Secureframe** | Commercial SaaS | Audit Automation & Vendor Risk | ✅ | ❌ | ❌ | ☁️ Managed SaaS | Proprietary |
+| **DataGrail** | Commercial SaaS | Live Data Mapping & Privacy Requests | ❌ | ✅ | ✅ | ☁️ Managed SaaS | Proprietary |
+| **Prowler** | Open Source | Multi-Cloud Compliance & CIS Scanner | ✅ | ❌ | ❌ | 🐳 Docker / CLI | Apache-2.0 |
+| **ScoutSuite** | Open Source | Multi-Cloud Security Auditing | ✅ | ❌ | ❌ | 🐍 Python / CLI | GPL-2.0 |
+| **CISO Assistant** | Open Source | Comprehensive GRC & Risk Management | ✅ | 🔶 (GDPR) | ❌ | 🐳 Docker / Django | AGPL-3.0 |
+| **ComplianceAsCode** | Open Source | Automated OS Hardening & SCAP | ✅ | ❌ | ❌ | 💻 Ansible / Bash | BSD-3-Clause |
+| **Openlane** | Open Source | Open-Source Vanta Alternative | ✅ | 🔶 (Vendor) | ❌ | 🐳 Go / Postgres | Apache-2.0 |
+| **GovReady-Q** | Open Source | Guided System Security Plans (SSP) | ✅ | ❌ | ❌ | 🐳 Docker / Django | GPL-3.0 |
+| **Blackfyre** | Open Source | AI-Assisted Cloud Infrastructure Scan | ✅ | 🔶 (Controls) | ❌ | 🐳 Docker / Localstack | MIT |
+| **c15t** | Open Source | Observable TypeScript Consent SDK | ❌ | ❌ | ✅ | 📦 NPM / Next.js | Apache-2.0 |
+| **Klaro** | Open Source | Zero-Dependency Privacy Consent Banner | ❌ | ❌ | ✅ | 📦 Vanilla JS / NPM | BSD-3-Clause |
+| **tarteaucitron.js** | Open Source | Lightweight Client-Side Script Manager | ❌ | ❌ | ✅ | 🌐 Vanilla JS Library | MIT |
+| **Fides** | Open Source | Privacy-as-Code & DSAR Fulfillment | ❌ | ✅ | 🔶 (Banner) | 🐳 Docker / Python | Apache-2.0 |
+| **ConsentOS** | Source Available | Self-Hosted Enterprise CMP & Crawler | ❌ | 🔶 (Rules) | ✅ | 🐳 Docker / FastAPI | Elastic-2.0 |
+| **DSAR (inthhq)** | Open Source | Embeddable Multi-Tenant DSAR Engine | ❌ | ✅ | ❌ | ⚡ Bun / Turborepo | Apache-2.0 |
+| **privacy-dsar-mcp** | Open Source | MCP Server for AI-Driven DSAR Tracking | ❌ | ✅ | ❌ | 🤖 Local Python / MCP | MIT |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source SOC 2 / ISO Enterprise Data Privacy Controls tool that should be listed here, please open a pull request with:
+Contributions are warmly encouraged! If you know of an enterprise-grade compliance automation or data privacy tool that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. **Fork the repository** 🍴
+2. **Create a feature branch** (`git checkout -b feature/new-compliance-tool`) 🌿
+3. **Add the project details** with verifiable citations, GitHub repo link, stack, license, and primary strengths 📝
+4. **Ensure active maintenance** (releases or commits within the last 12 months) ⏱️
+5. **Open a Pull Request** with a clear explanation of why the tool adds value 🚀
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is source-available but not OSI-approved, as with ConsentOS). Note that the open-source ecosystem **splits** between **compliance automation** (Openlane, Blackfyre, CISO Assistant) and **privacy engineering** (Fides, DSAR, ConsentOS, c15t, tarteaucitron). **Openlane** is the most direct Vanta/Drata alternative with no enterprise feature gating [citation:6]. **Blackfyre** offers the broadest framework coverage with AI-assisted cloud scanning and tamper-evident evidence [citation:2]. **Fides** is the most mature open-source DSAR automation platform, embedding privacy-as-code into application runtime [citation:1]. For consent management, **ConsentOS** offers the most feature-dense self-hosted CMP, though its Elastic license restricts commercial reuse [citation:10].
+---
+
+##  Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&type=Date)](https://star-history.com/#ishandutta2007/Awesome-SOC2-Iso-Enterprise-Data-Privacy-Controls&Date)
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated index are distributed under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. Individual software platforms, open-source repositories, and third-party trademarks referenced remain the property of their respective owners.
 
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<div align="center">
+  <sub>Built with ❤️ for privacy engineers, compliance officers, and security teams worldwide.</sub>
+</div>
